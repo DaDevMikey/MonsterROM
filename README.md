@@ -3,7 +3,7 @@
 </h1>
 <p align="center">
   <a href="https://github.com/devcore94/MonsterROM/blob/fifteen/LICENSE"><img loading="lazy" src="https://img.shields.io/github/license/devcore94/MonsterROM?style=for-the-badge&logo=github"/></a>
-  <a href="https://github.com/devcore94/MonsterROM/commits/fifteen"><img loading="lazy" src="https://img.shields.io/github/last-commit/devcore94/MonsterROM/fifteen?style=for-the-badge"/></a>
+  <a href="https://github.com/devcore94/MonsterROM/commits/fifteen"><img loading="lazy" src="https://img.shields.io/github/last-commit/devcore94/MonsterROM?style=for-the-badge"/></a>
   <a href="https://github.com/devcore94/MonsterROM/stargazers"><img loading="lazy" src="https://img.shields.io/github/stars/devcore94/MonsterROM?style=for-the-badge"/></a>
   <a href="https://github.com/devcore94/MonsterROM/graphs/contributors"><img loading="lazy" src="https://img.shields.io/github/contributors/devcore94/MonsterROM?style=for-the-badge"/></a>
 </p>
