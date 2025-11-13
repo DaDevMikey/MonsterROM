@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img loading="lazy" src="readme-res/banner.png"/>
+  <img loading="lazy" src="readme-res/One-UI-8.5.png"/>
 </h1>
 <p align="center">
   <a href="https://github.com/devcore94/MonsterROM/blob/fifteen/LICENSE"><img loading="lazy" src="https://img.shields.io/github/license/devcore94/MonsterROM?style=for-the-badge&logo=github"/></a>
