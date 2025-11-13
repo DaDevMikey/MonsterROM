@@ -35,6 +35,8 @@
 /vendor/etc/midas/SRIBMQA_aiNOISEDETECT_V100_FP32\.tflite u:object_r:vendor_configs_file:s0
 /vendor/etc/mtu-conf\.xml u:object_r:vendor_configs_file:s0
 /vendor/etc/pdpcnt-conf\.xml u:object_r:vendor_configs_file:s0
+/vendor/etc/seccomp-policy u:object_r:vendor_file:s0
+/vendor/etc/seccomp-policy/samsung.software.media.c2-base-policy u:object_r:vendor_file:s0
 /vendor/etc/singletake u:object_r:vendor_configs_file:s0
 /vendor/etc/singletake/blur_detection u:object_r:vendor_configs_file:s0
 /vendor/etc/singletake/blur_detection/BlurDetectionModel_20210527\.tflite u:object_r:vendor_configs_file:s0

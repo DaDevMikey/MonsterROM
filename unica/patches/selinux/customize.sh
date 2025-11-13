@@ -5,6 +5,11 @@
 # - DO NOT add add any parenthesis or statements (eg. "fabriccrypto" and NOT "expanttypeattribute ... (fabriccrypto)")
 # - DO NOT add unnecessary types or remove the existing ones unless they aren't necessary anymore for all devices
 
+LOG_STEP_IN "- Patching system_ext,productmappings & policy.cil"
+ADD_TO_WORK_DIR "p3sxxx" "system_ext" "etc/selinux/mapping" 0 2000 755 "u:object_r:system_file:s0"
+ADD_TO_WORK_DIR "p3sxxx" "product" "etc/selinux/mapping" 0 2000 755 "u:object_r:product_file:s0"
+LOG_STEP_OUT
+
 # One UI 7.0 additions
 ENTRIES+="
 attiqi_app

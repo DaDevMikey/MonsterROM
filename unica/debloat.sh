@@ -31,7 +31,7 @@ etc/dpolicy
 # Samsung SIM Unlock
 SYSTEM_DEBLOAT+="
 system/bin/ssud
-system/etc/init/ssu_r12sxxx.rc
+system/etc/init/ssu_pa3qxxx.rc
 system/etc/init/ssu.rc
 system/etc/permissions/privapp-permissions-com.samsung.ssu.xml
 system/etc/sysconfig/samsungsimunlock.xml
@@ -72,28 +72,28 @@ system/app/MDMApp
 system/app/PlayAutoInstallConfig
 system/app/Rampart
 system/app/SamsungPassAutofill_v1
-system/app/SamsungTTSVoice_ar_AE_m00
+system/app/SamsungTTSVoice_ar_AE_m00_ICLM
 system/app/SamsungTTSVoice_de_DE_f00
 system/app/SamsungTTSVoice_en_GB_f00
 system/app/SamsungTTSVoice_es_ES_f00
-system/app/SamsungTTSVoice_es_MX_f00
+system/app/SamsungTTSVoice_es_MX_f00_ICLM
 system/app/SamsungTTSVoice_es_US_f00
 system/app/SamsungTTSVoice_fr_FR_f00
-system/app/SamsungTTSVoice_hi_IN_f00
-system/app/SamsungTTSVoice_id_ID_f00
+system/app/SamsungTTSVoice_hi_IN_f00_ICLM
+system/app/SamsungTTSVoice_id_ID_f00_ICLM
 system/app/SamsungTTSVoice_it_IT_f00
-system/app/SamsungTTSVoice_pl_PL_f00
+system/app/SamsungTTSVoice_pl_PL_f00_ICLM
 system/app/SamsungTTSVoice_pt_BR_f00
-system/app/SamsungTTSVoice_ru_RU_f00
-system/app/SamsungTTSVoice_th_TH_f00
-system/app/SamsungTTSVoice_vi_VN_f00
+system/app/SamsungTTSVoice_ru_RU_f00_ICLM
+system/app/SamsungTTSVoice_th_TH_f00_ICLM
+system/app/SamsungTTSVoice_vi_VN_f00_ICLM
 system/app/SilentLog
 system/app/SimAppDialog
 system/app/Traceur
 system/app/UniversalMDMClient
 system/app/WifiGuider
 system/etc/default-permissions/default-permissions-com.sec.spp.push.xml
-system/etc/init/digitalkey_init_ble_tss2.rc
+system/etc/init/digitalkey_init_uwb_tss2.rc
 system/etc/init/samsung_pass_authenticator_service.rc
 system/etc/permissions/authfw.xml
 system/etc/permissions/com.samsung.feature.ipsgeofence.xml
@@ -129,17 +129,15 @@ system/etc/sysconfig/samsungpushservice.xml
 system/hidden/SmartTutor
 system/preload/Facebook_stub_preload
 system/priv-app/AppUpdateCenter
-system/priv-app/AREmoji
 system/priv-app/AREmojiEditor
 system/priv-app/AuthFramework
 system/priv-app/BCService
-system/priv-app/CpAgent
-system/priv-app/DiagMonAgent94
+system/priv-app/CIDManager
+system/priv-app/DiagMonAgent97
 system/priv-app/DigitalKey
 system/priv-app/EnhancedAttestationAgent
 system/priv-app/FBInstaller_NS
 system/priv-app/FBServices
-system/priv-app/FotaAgent
 system/priv-app/ImsLogger
 system/priv-app/IpsGeofence
 system/priv-app/OdaService
@@ -150,10 +148,11 @@ system/priv-app/SamsungCarKeyFw
 system/priv-app/SamsungPass
 system/priv-app/SamsungPositioning
 system/priv-app/SKMSAgent
-system/priv-app/SOAgent75
+system/priv-app/SOAgent77
 system/priv-app/SPPPushClient
 system/priv-app/StickerFaceARAvatar
 system/priv-app/YourPhone_P1_5
+system/system_ext/priv-app/com.qualcomm.location
 "
 
 PRISM_DEBLOAT+="
@@ -162,7 +161,6 @@ etc
 HWRDB
 preload
 priv-app
-sipdb
 "
 
 OPTICS_DEBLOAT+="

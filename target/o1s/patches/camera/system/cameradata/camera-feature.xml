@@ -5,6 +5,7 @@
     <local name="SHOOTING_MODE_PHOTO" back="PHOTO" front="PHOTO" enable="true" more="false" order="2"/>
     <local name="SHOOTING_MODE_VIDEO" back="VIDEO" front="VIDEO" enable="true" more="false" order="3"/>
 
+    <local name="SHOOTING_MODE_EXPERT_RAW" back="EXPERT_RAW" enable="false" more="true" order="1"/>
     <local name="SHOOTING_MODE_PRO" back="PRO" enable="true" more="true" order="1"/>
     <local name="SHOOTING_MODE_PRO_VIDEO" back="PRO_VIDEO" enable="true" more="true" order="2"/>
     <local name="SHOOTING_MODE_SINGLE_TAKE_VIDEO" back="SINGLE_TAKE_VIDEO" front="SINGLE_TAKE_VIDEO" enable="true" more="true" order="3" preview-size="1440x1080"/>

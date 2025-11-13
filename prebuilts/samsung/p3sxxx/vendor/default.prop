@@ -1,0 +1,27 @@
+#
+# ADDITIONAL VENDOR DEFAULT PROPERTIES
+#
+ro.vndk.version=30
+ro.surface_flinger.has_wide_color_display=true
+ro.surface_flinger.has_HDR_display=true
+ro.surface_flinger.use_color_management=true
+debug.sf.show_refresh_rate_overlay_render_rate=true
+ro.surface_flinger.game_default_frame_rate_override=60
+ro.surface_flinger.use_content_detection_for_refresh_rate=true
+ro.surface_flinger.set_idle_timer_ms=600
+ro.surface_flinger.set_touch_timer_ms=300
+ro.surface_flinger.enable_frame_rate_override=true
+persist.sys.usb.config=mtp,conn_gadget
+ro.zygote=zygote64
+ro.logd.size.stats=64K
+log.tag.stats_log=I
+ro.storage.support.sdcard=0
+ro.bionic.arch=arm64
+ro.bionic.cpu_variant=cortex-a76
+ro.bionic.2nd_arch=arm
+ro.bionic.2nd_cpu_variant=cortex-a76
+persist.sys.dalvik.vm.lib.2=libart.so
+dalvik.vm.isa.arm64.variant=cortex-a76
+dalvik.vm.isa.arm64.features=default
+dalvik.vm.isa.arm.variant=cortex-a76
+dalvik.vm.isa.arm.features=default
